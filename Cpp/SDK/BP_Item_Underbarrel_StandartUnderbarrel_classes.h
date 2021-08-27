@@ -1,0 +1,44 @@
+﻿#pragma once
+
+// Name: Polygon, Version: 0.3.13.76
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Classes
+//---------------------------------------------------------------------------
+
+// BlueprintGeneratedClass BP_Item_Underbarrel_StandartUnderbarrel.BP_Item_Underbarrel_StandartUnderbarrel_C
+// 0x0008 (FullSize[0x0288] - InheritedSize[0x0280])
+class ABP_Item_Underbarrel_StandartUnderbarrel_C : public AItem_Module_General
+{
+public:
+	class USceneComponent*                             DefaultSceneRoot;                                          // 0x0280(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("BlueprintGeneratedClass BP_Item_Underbarrel_StandartUnderbarrel.BP_Item_Underbarrel_StandartUnderbarrel_C");
+		return ptr;
+	}
+
+
+
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

@@ -1,0 +1,246 @@
+﻿#pragma once
+
+// Name: Polygon, Version: 0.3.13.76
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.Pistol
+struct UBP_PG_AnimBluerpint_Arms_C_Pistol_Params
+{
+	struct FPoseLink                                   Pistol;                                                    // (Parm, OutParm, NoDestructor)
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.Rifle
+struct UBP_PG_AnimBluerpint_Arms_C_Rifle_Params
+{
+	struct FPoseLink                                   Rifle;                                                     // (Parm, OutParm, NoDestructor)
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.AnimGraph
+struct UBP_PG_AnimBluerpint_Arms_C_AnimGraph_Params
+{
+	struct FPoseLink                                   AnimGraph;                                                 // (Parm, OutParm, NoDestructor)
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.FootStep
+struct UBP_PG_AnimBluerpint_Arms_C_FootStep_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.CalculateWeaponAimPosition
+struct UBP_PG_AnimBluerpint_Arms_C_CalculateWeaponAimPosition_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_BlendListByEnum_D6D1E8A3420246AA5BBD15B1BA8B447A
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_BlendListByEnum_D6D1E8A3420246AA5BBD15B1BA8B447A_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_BC6AF02242772052179FE58BE9ABEB97
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_BC6AF02242772052179FE58BE9ABEB97_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_207AF9CF48787F2BF0B4E0940815002A
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_207AF9CF48787F2BF0B4E0940815002A_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_322D060348DAB5E3C5CF48A978F1ED10
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_322D060348DAB5E3C5CF48A978F1ED10_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_678A173348651DF6DCDFD5ACAAFE3F5B
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_678A173348651DF6DCDFD5ACAAFE3F5B_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_214BE36048A9C40F4F73E7B9C773E29C
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_214BE36048A9C40F4F73E7B9C773E29C_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_F76B2DA5443D16D01654A5BF4886C4E8
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_ModifyBone_F76B2DA5443D16D01654A5BF4886C4E8_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_554C01CF4E51B8EAEE9013BDBC3B9DEE
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_554C01CF4E51B8EAEE9013BDBC3B9DEE_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_01DB11C249DAA3D1B9D37A94E5A36661
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_01DB11C249DAA3D1B9D37A94E5A36661_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_521E7E244E084F97BC47CE8B59F5C8FB
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_521E7E244E084F97BC47CE8B59F5C8FB_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_C47270964AA281FC1685CFA552016266
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_C47270964AA281FC1685CFA552016266_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_0A29DBF7418ED4B309D59996DB9BDF1F
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_0A29DBF7418ED4B309D59996DB9BDF1F_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_CBEB09F44A3AEAE2CEBFE78BD2929AC4
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_CBEB09F44A3AEAE2CEBFE78BD2929AC4_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_D1FCBE604CB80ADB6B21C28AA1234D5A
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_D1FCBE604CB80ADB6B21C28AA1234D5A_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_DB623B1C462AC05780A37491906F6267
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_DB623B1C462AC05780A37491906F6267_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_264E6CDE41EE9285446749BB0FC6CD30
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_264E6CDE41EE9285446749BB0FC6CD30_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_D8723B3E4D200C19D936CF88C250F825
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_D8723B3E4D200C19D936CF88C250F825_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_4B29B84B4F8F3E3F7F202C97237168E7
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_4B29B84B4F8F3E3F7F202C97237168E7_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_03309A04491030DFF1F092B8D77085E7
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_03309A04491030DFF1F092B8D77085E7_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_929B43484B847F81559986877D70385B
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_929B43484B847F81559986877D70385B_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_C83C1976493C33A841CD22B2089B0690
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_C83C1976493C33A841CD22B2089B0690_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_051EB7F4498E17927E308B925B207EA8
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_051EB7F4498E17927E308B925B207EA8_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_701B3AE146AA86A9B47DAC92EF568234
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_701B3AE146AA86A9B47DAC92EF568234_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_65B1CE02411EB4F37FDAEE9E8021174A
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_65B1CE02411EB4F37FDAEE9E8021174A_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_5435825841D8E787A36C358D48E4BC05
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_5435825841D8E787A36C358D48E4BC05_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_50660D35436DCF86FA27CAA23096670D
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_50660D35436DCF86FA27CAA23096670D_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_DF084A7B42BF05B1C5A937AEEA51589F
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_DF084A7B42BF05B1C5A937AEEA51589F_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_59D711B94C6A75B1B2EE5CA5EC1E02B0
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_SequenceEvaluator_59D711B94C6A75B1B2EE5CA5EC1E02B0_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_DAAE5E114AD2EE44B2F1DB9BE712FBE8
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_DAAE5E114AD2EE44B2F1DB9BE712FBE8_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.AnimNotify_FootStep
+struct UBP_PG_AnimBluerpint_Arms_C_AnimNotify_FootStep_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.AnimNotify_ThrowGrenade
+struct UBP_PG_AnimBluerpint_Arms_C_AnimNotify_ThrowGrenade_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.AnimNotify_Pistol_Draw
+struct UBP_PG_AnimBluerpint_Arms_C_AnimNotify_Pistol_Draw_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.AnimNotify_Weapon_Draw
+struct UBP_PG_AnimBluerpint_Arms_C_AnimNotify_Weapon_Draw_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.BlueprintUpdateAnimation
+struct UBP_PG_AnimBluerpint_Arms_C_BlueprintUpdateAnimation_Params
+{
+	float                                              DeltaTimeX;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.BlueprintInitializeAnimation
+struct UBP_PG_AnimBluerpint_Arms_C_BlueprintInitializeAnimation_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_3C3B0C524EB70C0D2F60529CCAF382EE
+struct UBP_PG_AnimBluerpint_Arms_C_EvaluateGraphExposedInputs_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_AnimGraphNode_TransitionResult_3C3B0C524EB70C0D2F60529CCAF382EE_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.OnSetCurrentWeapon_Event
+struct UBP_PG_AnimBluerpint_Arms_C_OnSetCurrentWeapon_Event_Params
+{
+};
+
+// Function BP_PG_AnimBluerpint_Arms.BP_PG_AnimBluerpint_Arms_C.ExecuteUbergraph_BP_PG_AnimBluerpint_Arms
+struct UBP_PG_AnimBluerpint_Arms_C_ExecuteUbergraph_BP_PG_AnimBluerpint_Arms_Params
+{
+	int                                                EntryPoint;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
